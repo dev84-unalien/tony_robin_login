@@ -85,6 +85,12 @@ body {
   color: white;
   margin: 5px 0 50px 0;
   font-size: 0.8rem;
+  text-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+#log > a:hover {
+  text-decoration: underline;
 }
 
 #connect {
