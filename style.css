@@ -19,8 +19,7 @@ body,
 body {
   min-height: 100vh;
   background-color: lightgrey;
-  font-family: 'Roboto Mono',
-    monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #content {
@@ -29,8 +28,7 @@ body {
 }
 
 #titre {
-  font-family: 'Henny Penny',
-    cursive;
+  font-family: 'Henny Penny', cursive;
   font-size: 5vw;
   margin: 50px 50px 20px 50px;
   color: lightgrey;
@@ -49,8 +47,8 @@ body {
   letter-spacing: 2px;
 }
 
-#question>span,
-#phrase>span {
+#question > span,
+#phrase > span {
   font-style: italic;
   font-weight: bold;
 }
@@ -61,14 +59,14 @@ body {
   color: lightgrey;
   margin-bottom: 50px;
   text-shadow: 2px 2px 5px black;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 #log {
   width: 100%;
 }
 
-#log>input {
+#log > input {
   padding: 7px;
   margin: 5px;
   width: 40%;
@@ -76,27 +74,25 @@ body {
   border-radius: 20px;
 }
 
-#log>input::placeholder {
-  font-family: 'Henny Penny',
-    cursive;
+#log > input::placeholder {
+  font-family: 'Henny Penny', cursive;
   font-size: 1.1rem;
   text-align: center;
 }
 
-#log>a {
+#log > a {
   text-decoration: none;
   color: white;
   margin: 5px 0 50px 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 #connect {
   width: 100%;
 }
 
-#connect>div {
-  font-family: 'Henny Penny',
-    cursive;
+#connect > div {
+  font-family: 'Henny Penny', cursive;
   text-align: center;
   padding: 2px;
   margin: 5px;
@@ -104,13 +100,14 @@ body {
   border: solid 2px black;
   border-radius: 20px;
   color: white;
+  cursor: pointer;
 }
 
-#connect>#btn_connect {
+#connect > #btn_connect {
   background-color: rgb(36, 197, 90);
 }
 
-#connect>#btn_fb {
+#connect > #btn_fb {
   background-color: rgb(56, 126, 218);
   margin-bottom: 50px;
 }
