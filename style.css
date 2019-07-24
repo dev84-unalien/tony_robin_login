@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+#content,
+#log,
+#connect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  background-color: lightgrey;
+  font-family: 'Roboto Mono',
+    monospace;
+}
+
+#content {
+  background-color: rgb(185, 45, 45);
+  width: 40vw;
+}
+
+#titre {
+  font-family: 'Henny Penny',
+    cursive;
+  font-size: 5vw;
+  margin: 50px 50px 20px 50px;
+  color: lightgrey;
+  text-shadow: 2px 2px 5px black;
+}
+
+#question {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(73, 21, 5);
+  color: lightgrey;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px black;
+  font-size: 2vw;
+  letter-spacing: 2px;
+}
+
+#question>span,
+#phrase>span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#phrase {
+  width: 70%;
+  text-align: center;
+  color: lightgrey;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px black;
+  font-size: .9rem;
+}
+
+#log {
+  width: 100%;
+}
+
+#log>input {
+  padding: 7px;
+  margin: 5px;
+  width: 40%;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+#log>input::placeholder {
+  font-family: 'Henny Penny',
+    cursive;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#log>a {
+  text-decoration: none;
+  color: white;
+  margin: 5px 0 50px 0;
+  font-size: .8rem;
+}
+
+#connect {
+  width: 100%;
+}
+
+#connect>div {
+  font-family: 'Henny Penny',
+    cursive;
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+  width: 40%;
+  border: solid 2px black;
+  border-radius: 20px;
+  color: white;
+}
+
+#connect>#btn_connect {
+  background-color: rgb(36, 197, 90);
+}
+
+#connect>#btn_fb {
+  background-color: rgb(56, 126, 218);
+  margin-bottom: 50px;
+}
